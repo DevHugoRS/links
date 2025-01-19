@@ -1,0 +1,69 @@
+/* Estilo geral para a página */
+body {
+  font-family: Arial, sans-serif; /* Define a fonte padrão */
+  background: linear-gradient(to bottom, #e0f7fa, #ffffff); /* Fundo gradiente */
+  margin: 0; /* Remove margens padrão */
+  padding: 0; /* Remove paddings padrão */
+  display: flex; /* Centraliza o contêiner principal */
+  justify-content: center; /* Alinha horizontalmente ao centro */
+  align-items: center; /* Alinha verticalmente ao centro */
+  height: 100vh; /* Define a altura da tela */
+}
+
+/* Contêiner principal */
+.container {
+  text-align: center; /* Centraliza o texto */
+  width: 300px; /* Define a largura do contêiner */
+  padding: 20px; /* Espaçamento interno */
+  background: white; /* Fundo branco */
+  border-radius: 10px; /* Arredonda as bordas */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+}
+
+/* Seção do perfil */
+.profile {
+  margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+/* Foto de perfil */
+.profile-picture {
+  width: 80px; /* Ajusta a largura ao contêiner pai */
+  max-width: 120px; /* Define o tamanho máximo da foto */
+  height: 80px; /* Mantém a proporção da imagem */
+  border-radius: 50%; /* Torna a imagem redonda */
+  object-fit: cover; /* Garante que a imagem preencha o espaço sem distorção */
+  margin: 0 auto; /* Centraliza a imagem horizontalmente */
+  display: block; /* Remove espaços indesejados */
+}
+
+/* Seção de links */
+.links {
+  margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+/* Estilo para cada link */
+.link-item {
+  display: block; /* Faz o link ocupar toda a linha */
+  margin: 10px 0; /* Espaçamento entre os links */
+  padding: 10px; /* Espaçamento interno do link */
+  background: #f0f0f0; /* Fundo cinza claro */
+  border: 2px solid #000; /* Borda preta */
+  border-radius: 8px; /* Arredonda as bordas */
+  text-decoration: none; /* Remove o sublinhado */
+  color: #000; /* Cor do texto */
+  font-weight: bold; /* Deixa o texto em negrito */
+  transition: background 0.3s, color 0.3s; /* Efeito de transição ao passar o mouse */
+}
+
+/* Efeito hover nos links */
+.link-item:hover {
+  background: #000; /* Fundo preto */
+  color: #fff; /* Texto branco */
+}
+
+/* Seção de ícones das redes sociais */
+.social-media img {
+  width: 30px; /* Define a largura dos ícones */
+  height: 30px; /* Define a altura dos ícones */
+  margin: 0 5px; /* Espaçamento entre os ícones */
+}
